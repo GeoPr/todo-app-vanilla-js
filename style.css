@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.sc {
+  min-height: 100vh;
+  padding: 100px 0px;
+  background: #333;
+}
+.container {
+  max-width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.body {
+  display: grid;
+  row-gap: 30px;
+}
+.form {
+  display: grid;
+  grid-template: 40px / 8fr 2fr;
+  column-gap: 30px;
+}
+.input {
+  padding: 0px 20px;
+  border-radius: 10px;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+}
+.input::placeholder {
+  color: #000;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+}
+.button {
+  border-radius: 10px;
+  background: rebeccapurple;
+  text-transform: uppercase;
+	font-size: 18px;
+	cursor: pointer;
+}
+.list {
+  display: grid;
+  row-gap: 10px;
+}
+.list li {
+  padding: 20px;
+  border-radius: 10px;
+  background: #eee;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.list li div {
+	display: flex;
+	align-items: center;
+}
+.list li div input {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin: 0px 20px 0px 0px;
+}
+.list li div span {
+	font-size: 18px;
+	color: #000;
+}
+.list li button {
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: rgb(160, 0, 0);
+	font-size: 18px;
+}
